@@ -1,17 +1,17 @@
 function NavBar() {
   return (
-    <nav id="nav-menu">
-      <div>
-        <ul>
+    
+      <nav className="container">
+        <ul className="list-menu">
           <li>About</li>
           <li>Project</li>
           <li>Contact</li>
         </ul>
-      </div>
-      <div>
-        <p>Mode ICON LIGHT/DARK</p>
-      </div>
-    </nav>
+        <p>ICON LIGHT/DARK</p>
+      </nav>
+      
+      
+  
   );
 }
 export default NavBar;
