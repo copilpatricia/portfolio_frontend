@@ -5,7 +5,6 @@ function App() {
   return (
     <div>
       <NavBar />
-      <h1>Hello frontend</h1>
     </div>
   );
 }
