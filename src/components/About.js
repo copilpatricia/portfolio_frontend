@@ -1,16 +1,17 @@
 function About() {
   return (
     <div className="container-about">
-      <div className="animated-text">
-        Hello, I am <span></span>    
+      <div className="fixed-text">Hello, I am</div>
+      <div class="animated-text">
+        <div>
+          <span>Patricia-Maria Muresan</span>
+        </div>
       </div>
-
     </div>
   );
 }
 
 export default About;
-
 
 //{/* <div className="description-about">
 //I am a passionate software engineer.I love building apps that are
