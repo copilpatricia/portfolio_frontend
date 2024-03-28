@@ -1,10 +1,17 @@
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
   background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #f89245 100%);
   /* background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%); */
   font-family: 'Roboto', sans-serif;
 }
+
+/* NavBar styling */
 
 .container {
   display: flex;
@@ -38,6 +45,32 @@ body {
   color: rgb(89, 82, 20);
 }
 
-i {
+#mode i {
   margin-right: 5px;
 }
+
+/* About styling */
+.container-about {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  
+}
+
+.animated-text {
+  border: 2px solid green;
+  min-width: 400px;
+  min-height: 100px;
+  font-size: 80px;
+
+}
+
+.description-about {
+  border: 2px solid green;
+  min-width: 400px;
+  min-height: 100px;
+  font-size: 35px;
+}
+
