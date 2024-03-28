@@ -63,33 +63,69 @@ body {
   border: 2px solid green;
   min-width: 400px;
   min-height: 100px;
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 600;
   display: inline-block;
-
 }
 
-.animated-text div {
-  overflow: hidden;
-  border-right: .15em solid orange;
-  white-space: nowrap;
-  font-size: 1.6rem;
-  width: 0;
-  animation: typing 1s forwards; 
-  
+.animated-text span {
+  position: relative;
+}
+
+.animated-text span::before{
+  content: "Patricia-Maria Muresan";
+  color: red;
+  animation: words 20s infinite;
+}
+
+.animated-text span::after{
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  background-color:linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #f89245 100%);
+  border-left: 2px solid orange;
+  right: -8px;
+  animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+  to{
+    border-left: 2px solid rgb(233, 97, 97);
+  }
+}
+
+@keyframes words {
+  0%, 20% {
+    content: "Patricia Maria Muresan"
+  }
+  21%, 40% {
+    content: "a Front-End Developer"
+  }
+  41%, 60% {
+    content: "a Software Engineer"
+  }
+  61%, 80% {
+    content: "a Developer"
+  }
+  81%, 100% {
+    content: "a Smart Cookie"
+  }
 }
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+    width: 0;
+  }
+  5%,20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+    width: calc(100% + 8px)
+  }
 }
 
-
-
-.description-about {
+/* .description-about {
   border: 2px solid green;
   min-width: 400px;
   min-height: 100px;
   font-size: 35px;
-}
+} */
 
