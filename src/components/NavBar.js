@@ -1,6 +1,7 @@
 function NavBar(props) {
+  const newColor = props.color ? "red" : "yellow"
   return (
-      <nav className="container">
+      <nav className="container" style={{backgroundColor: newColor}}>
         <div className="list-menu">
           <a href="https://www.google.com/">About</a> 
           <a href="https://www.google.com/">Projects</a>

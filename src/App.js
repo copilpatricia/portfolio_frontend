@@ -6,17 +6,21 @@ import {useState} from 'react'
 
 
 function App() {
-  const [backgroundChange, setBackgroundChange] = useState(true)
+
+  
+  const [color, setColor] = useState(true)
+  
 
 function toggleChange() {
-  setBackgroundChange( backgroundChange => !backgroundChange)
-  console.log(backgroundChange)
-
+  setColor(color => !color)
+  console.log(color)
 }
+
+
 
   return (
     <div>
-      <NavBar handleClick={toggleChange} />
+      <NavBar handleClick={toggleChange} color={color} />
       <About />
     </div>
   );
