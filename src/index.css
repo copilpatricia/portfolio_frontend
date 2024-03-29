@@ -6,18 +6,17 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: pink;
-  /* background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%); */
+  background-color:  #e6bdb9;
   font-family: 'Roboto', sans-serif;
 }
-/* linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #f89245 100%); */
+
 /* NavBar styling */
 
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid rgb(89, 82, 20);
+  border-bottom: 2px solid #faf3dd;
   height: 70px;
   font-weight: 700;
 
@@ -34,7 +33,7 @@ body {
 .list-menu a {
   font-size: 1.4rem;
   text-decoration: none;
-  color: rgb(89, 82, 20);
+  color: #5e6472;
 }
 
 #mode {
@@ -42,7 +41,7 @@ body {
   font-size: 0.9rem;
   text-decoration: underline;
   cursor: pointer;
-  color: rgb(89, 82, 20);
+  color: #5e6472;
 }
 
 #mode i {
@@ -50,28 +49,32 @@ body {
 }
 
 /* About styling */
-.container-about {
+.main-container {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
+  margin-left: 55px;
+  padding: 45px;
+  min-width: 400px;
   min-height: 500px;
-  padding: 40px;
-  font-size: 80px;
-  
 }
 
 .fixed-text {
   display: inline-block;
+  font-size: 50px;
   font-weight: 600;
+  color: #5e6472;
 }
 
 .animated-text {
   display: inline-block;
+  font-size: 50px;
   margin-left: 20px;
 }
 
-.animated-text span {
+.animated-text div span {
   position: relative;
-  color: orangered;
+  color: #faf3dd;
 }
 
 .animated-text span:after{
@@ -79,9 +82,9 @@ body {
   position: absolute;
   left: 0;
   height: 100%;
-  border-left: 2px solid orangered;
+  border-left: 2px solid #faf3dd;
   right: 0;
-  background-color: pink;
+  background-color: #e6bdb9;
   animation: 4s textType;
   animation-iteration-count: infinite;
   animation-timing-function: steps(10) ;
@@ -101,10 +104,11 @@ body {
   }
 }
 
-/* .description-about {
-  border: 2px solid green;
+.description-about {
   min-width: 400px;
   min-height: 100px;
-  font-size: 35px;
-} */
+  font-size: 30px;
+  margin-top: 20px;
+  color: #5e6472;
+}
 
