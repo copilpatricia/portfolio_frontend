@@ -3,27 +3,22 @@ import NavBar from './components/NavBar';
 import About from './components/About';
 import {useState} from 'react'
 
-
-
 function App() {
-
-  
-  const [color, setColor] = useState(true)
-  
-
-function toggleChange() {
-  setColor(color => !color)
-  console.log(color)
-}
+  const [backgroundColor, setBackgroundColor] = useState('#e6bdb9')
+  const [afterBackgroundColor, setAfterBackgroundColor] = useState('#e6bdb9');
 
 
-
+  const handleButtonClick = () => {
+    setBackgroundColor(backgroundColor === '#e6bdb9' ? 'black' : "#e6bdb9")
+    setAfterBackgroundColor(backgroundColor === '#e6bdb9' ? 'black' : "#e6bdb9")
+  }
   return (
-    <div>
-      <NavBar handleClick={toggleChange} color={color} />
-      <About />
+    <div id="main-div" style={{backgroundColor}}>
+      <NavBar handleButtonClick={handleButtonClick} />
+      <About afterBackgroundColor={afterBackgroundColor} />
     </div>
   );
 }
 
 export default App;
+

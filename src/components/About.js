@@ -1,4 +1,7 @@
-function About() {
+
+
+function About(props) {
+
   return (
     <div className="main-container">
       <div className="container-about">

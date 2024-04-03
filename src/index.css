@@ -5,8 +5,10 @@ html {
 body {
   margin: 0;
   padding: 0;
+}
+
+#main-div {
   height: 100vh;
-  background-color:  #e6bdb9;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -76,6 +78,7 @@ body {
   position: relative;
   color: #faf3dd;
 }
+
 
 .animated-text span:after{
   content: "";
