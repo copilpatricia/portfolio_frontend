@@ -79,22 +79,6 @@ body {
   color: #faf3dd;
 }
 
-
-.animated-text span:after{
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 100%;
-  border-left: 2px solid #faf3dd;
-  right: 0;
-  background-color: #e6bdb9;
-  animation: 4s textType;
-  animation-iteration-count: infinite;
-  animation-timing-function: steps(10) ;
-  animation-fill-mode: backwards;
-
-}
-
 @keyframes textType {
   0%{
     left: 0;
