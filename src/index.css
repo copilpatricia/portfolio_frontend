@@ -9,7 +9,7 @@ body {
 
 #main-div {
   height: 100vh;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* NavBar styling */
@@ -21,7 +21,6 @@ body {
   border-bottom: 2px solid #faf3dd;
   height: 70px;
   font-weight: 700;
-
 }
 .list-menu {
   display: flex;
@@ -83,14 +82,14 @@ body {
 }
 
 @keyframes textType {
-  0%{
+  0% {
     left: 0;
   }
-  50%{
+  50% {
     left: 100%;
   }
-  100%{
-    left:0%;
+  100% {
+    left: 0%;
   }
 }
 
@@ -101,4 +100,3 @@ body {
   margin-top: 20px;
   color: #5e6472;
 }
-
