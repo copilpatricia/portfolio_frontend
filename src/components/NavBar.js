@@ -11,10 +11,10 @@ function NavBar(props) {
         onClick={props.handleButtonClick}
         style={{
           backgroundColor:
-            props.backgroundColor === "#e6bdb9" ? "#e6bdb9" : "black",
+            props.backgroundColor === "#606c38" ? "#606c38" : "black",
         }}
       >
-        {props.backgroundColor === "#e6bdb9" ? (
+        {props.backgroundColor === "#606c38" ? (
           <i className="fa-solid fa-sun"></i>
         ) : (
           <i class="fa-regular fa-moon"></i>

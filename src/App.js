@@ -4,13 +4,13 @@ import About from "./components/About";
 import { useState } from "react";
 
 function App() {
-  const [backgroundColor, setBackgroundColor] = useState("#e6bdb9");
-  const [afterBackgroundColor, setAfterBackgroundColor] = useState("#e6bdb9");
+  const [backgroundColor, setBackgroundColor] = useState("#606c38");
+  const [afterBackgroundColor, setAfterBackgroundColor] = useState("#606c38");
 
   const handleButtonClick = () => {
-    setBackgroundColor(backgroundColor === "#e6bdb9" ? "black" : "#e6bdb9");
+    setBackgroundColor(backgroundColor === "#606c38" ? "black" : "#606c38");
     setAfterBackgroundColor(
-      backgroundColor === "#e6bdb9" ? "black" : "#e6bdb9"
+      backgroundColor === "#606c38" ? "black" : "#606c38"
     );
   };
 

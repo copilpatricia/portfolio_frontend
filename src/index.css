@@ -5,6 +5,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  min-height: 100vh;;
 }
 
 #main-div {
@@ -18,7 +19,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #faf3dd;
+  border-bottom: 5px solid #faf3dd;
   height: 70px;
   font-weight: 700;
 }
@@ -29,22 +30,22 @@ body {
   list-style: none;
   padding: 40px;
   cursor: pointer;
+  margin-left: 45px;
 }
 
 .list-menu a {
   font-size: 1.4rem;
   text-decoration: none;
-  color: #5e6472;
+  color: #faf3dd;
 }
 
 #mode {
-  /* padding: 40px; */
-  margin-right: 1rem;
+  margin-right: 2rem;
   font-size: 0.9rem;
   text-decoration: underline;
   cursor: pointer;
-  color: #5e6472;
-  background-color: #e6bdb9;
+  color: #faf3dd;
+  background-color: #606c38;
   border: none;
 }
 
@@ -67,7 +68,7 @@ body {
   display: inline-block;
   font-size: 50px;
   font-weight: 600;
-  color: #5e6472;
+  color: #faf3dd;
 }
 
 .animated-text {
@@ -98,5 +99,5 @@ body {
   min-height: 100px;
   font-size: 30px;
   margin-top: 20px;
-  color: #5e6472;
+  color: #faf3dd;
 }
