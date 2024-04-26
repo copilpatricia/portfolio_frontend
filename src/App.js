@@ -6,6 +6,7 @@ import {useState} from 'react'
 function App() {
   const [backgroundColor, setBackgroundColor] = useState('#e6bdb9')
   const [afterBackgroundColor, setAfterBackgroundColor] = useState('#e6bdb9');
+  const [button, changeButton] = useState('#e6bdb9')
 
 
   const handleButtonClick = () => {
@@ -14,7 +15,7 @@ function App() {
   }
   return (
     <div id="main-div" style={{backgroundColor}}>
-      <NavBar handleButtonClick={handleButtonClick} />
+      <NavBar handleButtonClick={handleButtonClick} button={button} />
       <About afterBackgroundColor={afterBackgroundColor} />
     </div>
   );

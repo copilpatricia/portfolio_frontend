@@ -39,11 +39,14 @@ body {
 }
 
 #mode {
-  padding: 40px;
+  /* padding: 40px; */
+  margin-right: 1rem;
   font-size: 0.9rem;
   text-decoration: underline;
   cursor: pointer;
   color: #5e6472;
+  background-color: #e6bdb9;
+  border: none;
 }
 
 #mode i {
