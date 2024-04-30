@@ -34,8 +34,9 @@ function App() {
         handleButtonClick={handleButtonClick}
         backgroundColor={backgroundColor}
       />
-      <About afterBackgroundColor={afterBackgroundColor} />
       <Projects projects={projects} />
+      <h1>hello</h1>
+      <About afterBackgroundColor={afterBackgroundColor} />
     </div>
   );
 }

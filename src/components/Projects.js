@@ -1,8 +1,20 @@
-function Projects(props) {
+function Projects({projects}) {
     return (
-        <div>
-            <h1>Hello</h1>
-        </div>
+        <>
+           {projects.map((project) => {
+            return (
+                <>
+                
+                <h1>{project.title}</h1>
+                <img src={project.image} alt="Website view" />
+                <ul>
+                    {project.technologies}
+                </ul>
+                </>
+            )
+           })}
+        </>
+      
     )
 }
 
