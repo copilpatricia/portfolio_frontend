@@ -1,6 +1,8 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
+import Projects from "./components/Projects"
+
 import { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -22,6 +24,7 @@ function App() {
         backgroundColor={backgroundColor}
       />
       <About afterBackgroundColor={afterBackgroundColor} />
+      <Projects />
     </div>
   );
 }

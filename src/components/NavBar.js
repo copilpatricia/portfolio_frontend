@@ -17,7 +17,7 @@ function NavBar(props) {
         {props.backgroundColor === "#606c38" ? (
           <i className="fa-solid fa-sun"></i>
         ) : (
-          <i class="fa-regular fa-moon"></i>
+          <i className="fa-regular fa-moon"></i>
         )}
         MODE
       </button>
