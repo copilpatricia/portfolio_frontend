@@ -36,6 +36,7 @@ function App() {
       />
       <Projects projects={projects} />
       <h1>hello</h1>
+      <h1>hello</h1>
       <About afterBackgroundColor={afterBackgroundColor} />
     </div>
   );
