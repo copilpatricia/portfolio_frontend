@@ -8,6 +8,10 @@ function Projects({projects}) {
                 <h1>{project.title}</h1>
                 <img src={project.image} alt="Website view" />
                 <ul>
+                    {project.technologies.map((technology, index) => (
+                        <li key={index}>{technology}</li>
+                        
+           ))}
                     <li>{project.technologies[0]}</li>
                     <li>
                     {project.technologies[1]}
