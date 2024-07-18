@@ -5,11 +5,11 @@ html {
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 100%;
 }
 
 #main-div {
-  height: 100vh;
+  height: 100%;
   font-family: "Roboto", sans-serif;
 }
 
