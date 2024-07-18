@@ -11,12 +11,7 @@ function Projects({projects}) {
                     {project.technologies.map((technology, index) => (
                         <li key={index}>{technology}</li>
                         
-           ))}
-                    <li>{project.technologies[0]}</li>
-                    <li>
-                    {project.technologies[1]}
-                    </li>
-                    
+           ))}       
                 </ul>
                 </>
             )
