@@ -2,6 +2,7 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Projects from "./components/Projects"
+import AboutMe from "./components/AboutMe"
 
 import { useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -36,6 +37,7 @@ function App() {
       />
       <About afterBackgroundColor={afterBackgroundColor} />
       <Projects projects={projects} />
+      <AboutMe />
 
     </div>
   );
