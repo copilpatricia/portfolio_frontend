@@ -13,6 +13,7 @@ function Projects({projects}) {
                         
            ))}       
                 </ul>
+                <p><a href={project.site}>See project</a></p>
                 </>
             )
            })}
